@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+<body>
+    <div class="container">
+        
+        <nav class="navbar">
+            <div class="logo">Portfolio</div>
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#certificates" class="nav-link">Certificates</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="theme-toggle">
+                <i class="fas fa-moon" id="theme-icon"></i>
+            </div>
+        </nav>
+
+        
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <div class="profile-img animate__animated animate__fadeInLeft">
+                    <img src="port2.png" alt="Profile Picture">
+                </div>
+                <div class="hero-text animate__animated animate__fadeInRight">
+                    <h1>Hello, I'm <span class="highlight">Shivam Kumar</span></h1>
+                    <h3>Frontend Developer & UI/UX Designer</h3>
+                    <p>I create beautiful, functional websites and applications with attention to detail and user experience.</p>
+                    <div class="social-links">
+                        <a href="https://github.com/Shivamjha8676" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://www.instagram.com/shivam___jha006?igsh=MXhhZTdzbWR2cHRh" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/shivam-kumar-b57978304?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                    <a href="#contact" class="btn">Contact Me</a>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="about" class="about section">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I’m Shivam Jha, a B.Tech CSE student and a passionate frontend developer. I enjoy building clean, responsive, and user-friendly websites using HTML, CSS, and JavaScript. I love turning ideas into real, working web pages that look good and work smoothly on all devices.
+                    </p>
+                    <p>I’m currently learning Java to strengthen my problem-solving abilities and prepare for Data Structures and Algorithms (DSA). Along with coding, I also use Figma to design modern UI layouts, which helps me create better and more visually appealing interfaces for my projects.
+                    </p>
+                    <p>My goal is to grow as a full-stack developer and work on real-world projects that make an impact. I believe in learning by doing, and I’m continuously improving my skills through consistent practice, exploring new technologies, and building meaningful digital experiences.</p>
+                </div>
+                <div class="about-img">
+                    <img src="Port.jpg" alt="About Me">
+                </div>
+            </div>
+        </section>
+
+
+        <section id="portfolio" class="portfolio section">
+            <h2 class="section-title">My Portfolio</h2>
+            <div class="portfolio-filter">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="web">Web Design</button>
+                <button class="filter-btn" data-filter="app">Applications</button>
+                <button class="filter-btn" data-filter="ui">UI/UX</button>
+            </div>
+            <div class="portfolio-items">
+                <div class="portfolio-item" data-category="web">
+                    <div class="portfolio-img">
+                        <img src="https://via.placeholder.com/400" alt="Project 1">
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Netflix Clone</h3>
+                        <p>A frontend clone of the Netflix landing page created to practice HTML and CSS. Key concepts implemented include Flexbox, Grid, media queries, and responsive design principles.</p>
+                        <div class="portfolio-links">
+                            <a href="ss.png" class="portfolio-link"><i class="fas fa-link"></i></a>
+                            <a href="https://luminous-choux-7ecc2f.netlify.app" class="portfolio-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="app">
+                    <div class="portfolio-img">
+                        <img src="https://via.placeholder.com/400" alt="Project 2">
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Amazon Clone</h3>
+                        <p>A frontend clone of the Netflix landing page created to practice HTML and CSS. Key concepts implemented include Flexbox, Grid, media queries, and responsive design principles.</p>
+                        <div class="portfolio-links">
+                            <a href="#" class="portfolio-link"><i class="fas fa-link"></i></a>
+                            <a href="https://github.com/Shivamjha8676/Amazon-Clone.git" class="portfolio-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="ui">
+                    <div class="portfolio-img">
+                        <img src="https://via.placeholder.com/400" alt="Project 3">
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Project Title 3</h3>
+                        <p>A brief description of this amazing project.</p>
+                        <div class="portfolio-links">
+                            <a href="#" class="portfolio-link"><i class="fas fa-link"></i></a>
+                            <a href="#" class="portfolio-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="web">
+                    <div class="portfolio-img">
+                        <img src="https://via.placeholder.com/400" alt="Project 4">
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Project Title 4</h3>
+                        <p>A brief description of this amazing project.</p>
+                        <div class="portfolio-links">
+                            <a href="#" class="portfolio-link"><i class="fas fa-link"></i></a>
+                            <a href="#" class="portfolio-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="skills" class="skills section">
+            <h2 class="section-title">My Skills</h2>
+            <div class="skills-container">
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-html5"></i>
+                    </div>
+                    <h3>HTML</h3>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 95%"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-css3-alt"></i>
+                    </div>
+                    <h3>CSS</h3>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 90%"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-js-square"></i>
+                    </div>
+                    <h3>JavaScript</h3>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 85%"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-git-alt"></i>
+                    </div>
+                    <h3>Git</h3>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 80%"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-github"></i>
+                    </div>
+                    <h3>GitHub</h3>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 85%"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-figma"></i>
+                    </div>
+                    <h3>Figma</h3>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 75%"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-java"></i>
+                    </div>
+                    <h3>Java (Basic)</h3>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 60%"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="certificates" class="certificates section">
+            <h2 class="section-title">My Certificates</h2>
+            <div class="certificates-container">
+                <div class="certificate-card">
+                    <div class="certificate-img">
+                        <img src="w1.png.jpg" alt="Certificate 1">
+                    </div>
+                    <div class="certificate-info">
+                        <h3>Web Development Certificate</h3>
+                        <p>Issued by: XYZ Institute</p>
+                        <p>Date: January 2023</p>
+                        <a href="w1.png.jpg" class="btn">View Certificate</a>
+                    </div>
+                </div>
+                <div class="certificate-card">
+                    <div class="certificate-img">
+                        <img src="w2.jpg" alt="Certificate 2">
+                    </div>
+                    <div class="certificate-info">
+                        <h3>UI/UX Design Certificate</h3>
+                        <p>Issued by: ABC Academy</p>
+                        <p>Date: March 2023</p>
+                        <a href="w2.jpg" class="btn">View Certificate</a>
+                    </div>
+                </div>
+                <div class="certificate-card">
+                    <div class="certificate-img">
+                        <img src="w3.jpg" alt="Certificate 3">
+                    </div>
+                    <div class="certificate-info">
+                        <h3>JavaScript Fundamentals</h3>
+                        <p>Issued by: Tech University</p>
+                        <p>Date: June 2023</p>
+                        <a href="w3.jpg" class="btn">View Certificate</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="contact" class="contact section">
+            <h2 class="section-title">Contact Me</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p>shivamkr001199@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>Phone</h3>
+                            <p>***</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Location</h3>
+                            <p>Madhubani (Bihar).</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/Shivamjha8676" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://www.instagram.com/shivam___jha006?igsh=MXhhZTdzbWR2cHRh" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/shivam-kumar-b57978304?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+
+        <footer class="footer">
+            <div class="footer-content">
+                <p>&copy; 2023 Your Name. All Rights Reserved.</p>
+                <div class="footer-social">
+                    <a href="Rs.jpg" target="resume">DR</a>
+                    
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
